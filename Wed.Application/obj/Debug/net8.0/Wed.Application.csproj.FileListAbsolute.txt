@@ -1,0 +1,17 @@
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\Wed.Application\obj\Debug\net8.0\Wed.Application.csproj.AssemblyReference.cache
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\Wed.Application\obj\Debug\net8.0\Wed.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\Wed.Application\obj\Debug\net8.0\Wed.Application.AssemblyInfoInputs.cache
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\Wed.Application\obj\Debug\net8.0\Wed.Application.AssemblyInfo.cs
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\Wed.Application\obj\Debug\net8.0\Wed.Application.csproj.CoreCompileInputs.cache
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\Wed.Application\bin\Debug\net8.0\Wed.Application.deps.json
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\Wed.Application\bin\Debug\net8.0\Wed.Application.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\Wed.Application\bin\Debug\net8.0\Wed.Application.pdb
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\Wed.Application\bin\Debug\net8.0\NetHelper.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\Wed.Application\bin\Debug\net8.0\Wed.Domain.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\Wed.Application\bin\Debug\net8.0\NetHelper.pdb
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\Wed.Application\bin\Debug\net8.0\Wed.Domain.pdb
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\Wed.Application\obj\Debug\net8.0\Wed.Appl.646324B6.Up2Date
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\Wed.Application\obj\Debug\net8.0\Wed.Application.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\Wed.Application\obj\Debug\net8.0\refint\Wed.Application.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\Wed.Application\obj\Debug\net8.0\Wed.Application.pdb
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\Wed.Application\obj\Debug\net8.0\ref\Wed.Application.dll

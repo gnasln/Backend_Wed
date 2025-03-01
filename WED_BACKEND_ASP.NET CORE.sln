@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WED_BACKEND_ASP.NET CORE", "WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE.csproj", "{65939FA3-86D3-4C66-819E-5CA11E1DC69C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E94C809D-AC7B-45B4-950D-3F229D116E16} = {E94C809D-AC7B-45B4-950D-3F229D116E16}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wed.Application", "Wed.Application\Wed.Application.csproj", "{FAAFFB6F-D29B-48B8-AECB-77A3132433E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wed.Domain", "Wed.Domain\Wed.Domain.csproj", "{2536DAC4-0181-40B8-9F6D-30F4F49C14C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wed.Infrastructure", "Wed.Infrastructure\Wed.Infrastructure.csproj", "{DFB993DC-2F49-4CD2-BA9E-4618C2DD834F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetHelper", "NetHelper\NetHelper.csproj", "{E94C809D-AC7B-45B4-950D-3F229D116E16}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{65939FA3-86D3-4C66-819E-5CA11E1DC69C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65939FA3-86D3-4C66-819E-5CA11E1DC69C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65939FA3-86D3-4C66-819E-5CA11E1DC69C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65939FA3-86D3-4C66-819E-5CA11E1DC69C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAAFFB6F-D29B-48B8-AECB-77A3132433E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAAFFB6F-D29B-48B8-AECB-77A3132433E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAAFFB6F-D29B-48B8-AECB-77A3132433E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAAFFB6F-D29B-48B8-AECB-77A3132433E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2536DAC4-0181-40B8-9F6D-30F4F49C14C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2536DAC4-0181-40B8-9F6D-30F4F49C14C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2536DAC4-0181-40B8-9F6D-30F4F49C14C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2536DAC4-0181-40B8-9F6D-30F4F49C14C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFB993DC-2F49-4CD2-BA9E-4618C2DD834F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFB993DC-2F49-4CD2-BA9E-4618C2DD834F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFB993DC-2F49-4CD2-BA9E-4618C2DD834F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFB993DC-2F49-4CD2-BA9E-4618C2DD834F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E94C809D-AC7B-45B4-950D-3F229D116E16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E94C809D-AC7B-45B4-950D-3F229D116E16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E94C809D-AC7B-45B4-950D-3F229D116E16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E94C809D-AC7B-45B4-950D-3F229D116E16}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

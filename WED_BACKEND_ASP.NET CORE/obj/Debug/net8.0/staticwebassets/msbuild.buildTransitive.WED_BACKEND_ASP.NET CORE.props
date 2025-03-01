@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\WED_BACKEND_ASP.NET CORE.props" />
+</Project>

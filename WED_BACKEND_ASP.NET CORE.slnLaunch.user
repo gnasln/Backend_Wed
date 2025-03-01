@@ -1,0 +1,11 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "WED_BACKEND_ASP.NET CORE\\WED_BACKEND_ASP.NET CORE.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

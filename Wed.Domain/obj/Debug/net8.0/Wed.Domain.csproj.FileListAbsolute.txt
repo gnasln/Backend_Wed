@@ -1,0 +1,15 @@
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\Wed.Domain\obj\Debug\net8.0\Wed.Domain.csproj.AssemblyReference.cache
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\Wed.Domain\obj\Debug\net8.0\Wed.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\Wed.Domain\obj\Debug\net8.0\Wed.Domain.AssemblyInfoInputs.cache
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\Wed.Domain\obj\Debug\net8.0\Wed.Domain.AssemblyInfo.cs
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\Wed.Domain\obj\Debug\net8.0\Wed.Domain.csproj.CoreCompileInputs.cache
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\Wed.Domain\bin\Debug\net8.0\Wed.Domain.deps.json
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\Wed.Domain\bin\Debug\net8.0\Wed.Domain.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\Wed.Domain\bin\Debug\net8.0\Wed.Domain.pdb
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\Wed.Domain\bin\Debug\net8.0\NetHelper.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\Wed.Domain\bin\Debug\net8.0\NetHelper.pdb
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\Wed.Domain\obj\Debug\net8.0\Wed.Domain.csproj.Up2Date
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\Wed.Domain\obj\Debug\net8.0\Wed.Domain.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\Wed.Domain\obj\Debug\net8.0\refint\Wed.Domain.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\Wed.Domain\obj\Debug\net8.0\Wed.Domain.pdb
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\Wed.Domain\obj\Debug\net8.0\ref\Wed.Domain.dll

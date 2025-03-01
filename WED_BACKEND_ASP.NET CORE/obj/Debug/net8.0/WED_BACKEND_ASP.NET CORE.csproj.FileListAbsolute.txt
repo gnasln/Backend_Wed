@@ -1,0 +1,268 @@
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\obj\Debug\net8.0\WED_BACKEND_ASP.NET CORE.csproj.AssemblyReference.cache
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\obj\Debug\net8.0\WED_BACKEND_ASP.NET CORE.GeneratedMSBuildEditorConfig.editorconfig
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\obj\Debug\net8.0\WED_BACKEND_ASP.NET CORE.AssemblyInfoInputs.cache
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\obj\Debug\net8.0\WED_BACKEND_ASP.NET CORE.AssemblyInfo.cs
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\obj\Debug\net8.0\WED_BACKEND_ASP.NET CORE.csproj.CoreCompileInputs.cache
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\obj\Debug\net8.0\WED_BACKEND_ASP.NET CORE.MvcApplicationPartsAssemblyInfo.cache
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\obj\Debug\net8.0\WED_BACKEND_ASP.NET CORE.RazorAssemblyInfo.cache
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\obj\Debug\net8.0\WED_BACKEND_ASP.NET CORE.RazorAssemblyInfo.cs
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\appsettings.Development.json
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\appsettings.json
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\WED_BACKEND_ASP.NET CORE.staticwebassets.endpoints.json
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\WED_BACKEND_ASP.NET CORE.exe
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\WED_BACKEND_ASP.NET CORE.deps.json
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\WED_BACKEND_ASP.NET CORE.runtimeconfig.json
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\WED_BACKEND_ASP.NET CORE.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\WED_BACKEND_ASP.NET CORE.pdb
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\ADRaffy.ENSNormalize.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Ardalis.GuardClauses.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\AutoMapper.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Azure.Core.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Azure.Identity.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\FluentEmail.Core.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\FluentEmail.Razor.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\FluentEmail.Smtp.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\FluentValidation.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Google.Protobuf.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Humanizer.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\K4os.Compression.LZ4.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\K4os.Compression.LZ4.Streams.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\K4os.Hash.xxHash.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\MailKit.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\MediatR.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\MediatR.Contracts.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Microsoft.CodeAnalysis.Razor.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Microsoft.Extensions.AmbientMetadata.Application.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Microsoft.Extensions.Compliance.Abstractions.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Binder.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.AutoActivation.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Microsoft.Extensions.DiagnosticAdapter.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.ExceptionSummarization.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.HealthChecks.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Microsoft.Extensions.Http.Diagnostics.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Microsoft.Extensions.Http.Polly.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Microsoft.Extensions.Http.Resilience.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Microsoft.Extensions.Resilience.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Microsoft.Extensions.Telemetry.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Microsoft.Extensions.Telemetry.Abstractions.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Microsoft.IO.RecyclableMemoryStream.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Microsoft.Net.Http.Headers.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\MimeKit.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\MySql.Data.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\MySql.EntityFrameworkCore.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\NBitcoin.Secp256k1.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Nethereum.ABI.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Nethereum.Accounts.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Nethereum.BlockchainProcessing.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Nethereum.Contracts.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Nethereum.Hex.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Nethereum.JsonRpc.Client.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Nethereum.JsonRpc.RpcClient.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Nethereum.KeyStore.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Nethereum.Merkle.Patricia.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Nethereum.Model.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Nethereum.RLP.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Nethereum.RPC.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Nethereum.Signer.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Nethereum.Signer.EIP712.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Nethereum.Util.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Nethereum.Util.Rest.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Nethereum.Web3.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Npgsql.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\OpenIddict.Abstractions.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\OpenIddict.Client.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\OpenIddict.Client.AspNetCore.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\OpenIddict.Client.DataProtection.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\OpenIddict.Client.SystemIntegration.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\OpenIddict.Client.SystemNetHttp.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\OpenIddict.Client.WebIntegration.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\OpenIddict.Core.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\OpenIddict.EntityFrameworkCore.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\OpenIddict.EntityFrameworkCore.Models.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\OpenIddict.Quartz.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\OpenIddict.Server.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\OpenIddict.Server.AspNetCore.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\OpenIddict.Server.DataProtection.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\OpenIddict.Validation.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\OpenIddict.Validation.AspNetCore.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\OpenIddict.Validation.DataProtection.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\OpenIddict.Validation.ServerIntegration.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\OpenIddict.Validation.SystemNetHttp.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Polly.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Polly.Core.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Polly.Extensions.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Polly.Extensions.Http.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Polly.RateLimiting.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\BouncyCastle.Crypto.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Quartz.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Quartz.Extensions.DependencyInjection.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Quartz.Extensions.Hosting.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\RazorLight.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Serilog.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Serilog.AspNetCore.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Serilog.Sinks.File.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\ServiceStack.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\ServiceStack.Client.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\ServiceStack.Common.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\ServiceStack.Interfaces.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\ServiceStack.Text.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\System.CodeDom.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\System.Data.SqlClient.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\System.Memory.Data.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\ZstdSharp.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\runtimes\win-x64\native\comerr64.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\runtimes\win-x64\native\gssapi64.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\runtimes\win-x64\native\k5sprt64.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\runtimes\win-x64\native\krb5_64.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\runtimes\win-x64\native\krbcc64.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Windows.Extensions.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\NetHelper.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Wed.Application.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Wed.Domain.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Wed.Infrastructure.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Wed.Application.pdb
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Wed.Domain.pdb
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\Wed.Infrastructure.pdb
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\bin\Debug\net8.0\NetHelper.pdb
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\obj\Debug\net8.0\WED_BACKEND_ASP.NET CORE.MvcApplicationPartsAssemblyInfo.cs
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\obj\Debug\net8.0\scopedcss\bundle\WED_BACKEND_ASP.NET CORE.styles.css
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\obj\Debug\net8.0\staticwebassets.build.json
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\obj\Debug\net8.0\staticwebassets.development.json
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\obj\Debug\net8.0\staticwebassets\msbuild.WED_BACKEND_ASP.NET CORE.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\obj\Debug\net8.0\staticwebassets\msbuild.WED_BACKEND_ASP.NET CORE.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\obj\Debug\net8.0\staticwebassets\msbuild.build.WED_BACKEND_ASP.NET CORE.props
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.WED_BACKEND_ASP.NET CORE.props
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.WED_BACKEND_ASP.NET CORE.props
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\obj\Debug\net8.0\WED_BACK.4BC95001.Up2Date
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\obj\Debug\net8.0\WED_BACKEND_ASP.NET CORE.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\obj\Debug\net8.0\refint\WED_BACKEND_ASP.NET CORE.dll
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\obj\Debug\net8.0\WED_BACKEND_ASP.NET CORE.pdb
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\obj\Debug\net8.0\WED_BACKEND_ASP.NET CORE.genruntimeconfig.cache
+D:\Work\FREELANCE\WED_BACKEND_ASP.NET CORE\WED_BACKEND_ASP.NET CORE\obj\Debug\net8.0\ref\WED_BACKEND_ASP.NET CORE.dll
