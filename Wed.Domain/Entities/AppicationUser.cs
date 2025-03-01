@@ -11,13 +11,6 @@ namespace Wed.Domain.Entities
         public new string? Email { get; set; }
         public string? CellPhone { get; set; }
         public string? Status { get; set; } = "Active";
-        public DateTime? CreateDate { get; set; } = DateTime.Now;
-        public DateTime? UpdateDate { get; set; }
-        public string? ImageUrl { get; set; }
-        public string? IdentityCardImage { get; set; }
-        public string? IdentityCardNumber { get; set; }
-        public DateTime? IdentityCardDate { get; set; }
-        public string? IdentityCardPlace { get; set; }
 
     }
 }

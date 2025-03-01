@@ -10,7 +10,6 @@ using WED_BACKEND_ASP.Helper.Services;
 using WED_BACKEND_ASP.Services;
 using NetHelper.Common.Models;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.AspNetCore.Builder;
 using WED_BACKEND_ASP.NET_CORE.Infrastructure;
 
 namespace WED_BACKEND_ASP.Endpoints
@@ -44,7 +43,7 @@ namespace WED_BACKEND_ASP.Endpoints
         }
 
         public async Task<IResult> RegisterUser([FromBody] RegisterForm newUser,
-            UserManager<ApplicationUser> _userManager, [FromServices] IEmailSender _emailSender)
+            UserManager<ApplicationUser> _userManager)
         {
             // Kiểm tra Username
             if (string.IsNullOrEmpty(newUser.UserName))
@@ -64,7 +63,12 @@ namespace WED_BACKEND_ASP.Endpoints
             {
                 return Results.BadRequest("501|User already exists");
             }
-
+            
+            // Kiểm tra mật khẩu
+            if (string.IsNullOrEmpty(newUser.Password) && newUser.Password != newUser.RePassword)
+            {
+                return Results.BadRequest("400|Password is required and must match RePassword");
+            }
 
             // Tạo đối tượng ApplicationUser
             var newUserEntity = new ApplicationUser
@@ -72,26 +76,14 @@ namespace WED_BACKEND_ASP.Endpoints
                 UserName = newUser.UserName,
                 Email = newUser.Email,
                 FullName = newUser.FullName,
-                Birthday = newUser.Birthday,
-                Address = newUser.Address,
-                Gender = newUser.Gender,
-                CellPhone = newUser.CellPhone,
-                IdentityCardNumber = newUser.IdentityCardNumber,
-                IdentityCardDate = newUser.IdentityCardDate,
-                IdentityCardPlace = newUser.IdentityCardPlace,
-                ImageUrl = newUser.ImageUrl,
-                IdentityCardImage = newUser.UrlIdentityCardImage
+                CellPhone = newUser.CellPhone
             };
-
-            // Tạo mật khẩu mặc định dựa trên ngày sinh hoặc giá trị mặc định nếu không có ngày sinh
-            var passwordSeed = GenerateSecurePassword();
-            var result = await _userManager.CreateAsync(newUserEntity, passwordSeed);
+            var result = await _userManager.CreateAsync(newUserEntity, newUser.Password!);
 
             if (result.Succeeded)
             {
                 // Gán vai trò cho người dùng mới tạo
-                var roleName = newUser.IsAdmin == true ? Roles.Administrator : Roles.User;
-                var roleResult = await _userManager.AddToRoleAsync(newUserEntity, roleName);
+                var roleResult = await _userManager.AddToRoleAsync(newUserEntity, Roles.User);
 
                 if (!roleResult.Succeeded)
                 {
@@ -246,17 +238,6 @@ C****: Update User
                 if (!updateUser.FullName.IsNullOrEmpty()) currentUser.FullName = updateUser.FullName;
                 currentUser.Gender = updateUser.Gender;
                 if (!(updateUser.Birthday == null)) currentUser.Birthday = updateUser.Birthday;
-                if (!updateUser.ImageUrl.IsNullOrEmpty()) currentUser.ImageUrl = updateUser.ImageUrl;
-                if (!updateUser.IdentityCardImage.IsNullOrEmpty())
-                    currentUser.IdentityCardImage = updateUser.IdentityCardImage;
-                if (!updateUser.IdentityCardNumber.IsNullOrEmpty())
-                    currentUser.IdentityCardNumber = updateUser.IdentityCardNumber;
-                if (!(updateUser.IdentityCardDate == null)) currentUser.IdentityCardDate = updateUser.IdentityCardDate;
-                if (!updateUser.IdentityCardPlace.IsNullOrEmpty())
-                    currentUser.IdentityCardPlace = updateUser.IdentityCardPlace;
-
-
-                currentUser.UpdateDate = DateTime.Now;
 
                 var result = await _userManager.UpdateAsync(currentUser);
                 if (result.Succeeded)
@@ -412,10 +393,8 @@ C****: Update User
                     status = u.Status,
                     Birthday = u.Birthday,
                     Address = u.Address,
-                    CreatedAt = u.CreateDate,
                     Role = roles.FirstOrDefault(),
-                    ImageUrl = u.ImageUrl,
-                    IdentityCardImage = u.IdentityCardImage
+
                 };
 
                 usersDtoList.Add(userDto);
@@ -428,7 +407,7 @@ C****: Update User
             }
 
             // Sắp xếp theo CreatedAt
-            var sortedUsersDtoList = usersDtoList.OrderByDescending(u => u.CreatedAt).ToList();
+            var sortedUsersDtoList = usersDtoList.OrderByDescending(u => u.Fullname).ToList();
 
             // Áp dụng phân trang
             var paginatedUsers = sortedUsersDtoList.Skip((page - 1) * pageSize).Take(pageSize).ToList();
@@ -460,18 +439,12 @@ C****: Update User
                 Fullname = currentUser.FullName,
                 UserName = currentUser.UserName,
                 Email = currentUser.Email,
-                IdentityCardNumber = currentUser.IdentityCardNumber,
-                IdentityCardDate = currentUser.IdentityCardDate,
-                IdentityCardPlace = currentUser.IdentityCardPlace,
                 Gender = currentUser.Gender,
                 CellPhone = currentUser.CellPhone,
                 status = currentUser.Status,
                 Birthday = currentUser.Birthday,
                 Address = currentUser.Address,
-                CreatedAt = currentUser.CreateDate,
                 Role = (await _userManager.GetRolesAsync(currentUser)).FirstOrDefault(),
-                ImageUrl = currentUser.ImageUrl,
-                IdentityCardImage = currentUser.IdentityCardImage
             };
 
             return Results.Ok(userDto);
@@ -494,18 +467,12 @@ C****: Update User
                     Fullname = user.FullName,
                     UserName = user.UserName,
                     Email = user.Email,
-                    IdentityCardNumber = user.IdentityCardNumber,
-                    IdentityCardDate = user.IdentityCardDate,
-                    IdentityCardPlace = user.IdentityCardPlace,
                     Gender = user.Gender,
                     CellPhone = user.CellPhone,
                     status = user.Status,
                     Birthday = user.Birthday,
                     Address = user.Address,
-                    CreatedAt = user.CreateDate,
                     Role = (await _userManager.GetRolesAsync(user)).FirstOrDefault(),
-                    ImageUrl = user.ImageUrl,
-                    IdentityCardImage = user.IdentityCardImage
                 };
                 return Results.Ok(result);
             }

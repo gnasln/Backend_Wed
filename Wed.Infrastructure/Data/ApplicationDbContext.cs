@@ -23,7 +23,6 @@ public class ApplicationDbContext : IdentityDbContext<ApplicationUser>, IApplica
             entity.HasIndex(e => e.Email).IsUnique();
             entity.HasIndex(e => e.UserName).IsUnique();
             entity.HasIndex(e => e.CellPhone).IsUnique();
-            entity.HasIndex(e => e.IdentityCardNumber).IsUnique();
         });
     }
 
