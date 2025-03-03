@@ -21,6 +21,8 @@ namespace WED_BACKEND_ASP.Endpoints
             app.MapGroup(this)
                 .MapPost(RegisterUser, "/register")
                 .MapPost(ForgotPassword, "/forgot-password")
+                .MapPost(SendOTP, "/send-otp")
+                .MapPost(VerifyOTP, "/verify-otp")
                 ;
 
 
@@ -28,8 +30,6 @@ namespace WED_BACKEND_ASP.Endpoints
                 .RequireAuthorization()
                 .MapPut(ChangePassword, "/change-password")
                 .MapPatch(UpdateUser, "/update-user")
-                .MapPost(SendOTP, "/send-otp")
-                .MapPost(VerifyOTP, "/verify-otp")
                 .MapPut(ChangeEmail, "/change-email")
                 .MapGet(GetCurrentUser, "/UserInfo")
                 .MapPost(CheckPasswork, "/check-password")
@@ -63,7 +63,7 @@ namespace WED_BACKEND_ASP.Endpoints
             {
                 return Results.BadRequest("501|User already exists");
             }
-            
+
             // Kiểm tra mật khẩu
             if (string.IsNullOrEmpty(newUser.Password) && newUser.Password != newUser.RePassword)
             {
@@ -100,29 +100,32 @@ namespace WED_BACKEND_ASP.Endpoints
         }
 
         public async Task<IResult> ForgotPassword([FromBody] ForgotPassword forgotPassword,
-            UserManager<ApplicationUser> _userManager, [FromServices] IEmailSender _emailSender)
+            UserManager<ApplicationUser> userManager, [FromServices] IEmailSender emailSender,
+            [FromServices] IBackgroundTaskQueue taskQueue)
         {
             try
             {
-                if (forgotPassword == null)
+                if (string.IsNullOrWhiteSpace(forgotPassword.Email))
                 {
-                    return Results.BadRequest("400|Missing email address");
+                    return Results.BadRequest("Email cannot be empty.");
                 }
 
-                var user = await _userManager.FindByNameAsync(forgotPassword.UserName);
+                var user = userManager.Users.FirstOrDefault(u => u.Email == forgotPassword.Email);
                 if (user == null)
                 {
-                    return Results.BadRequest("400|User not found");
+                    return Results.NotFound("User not found.");
                 }
 
-                var newPassword = GenerateSecurePassword();
-                var token = await _userManager.GeneratePasswordResetTokenAsync(user);
-                var result = await _userManager.ResetPasswordAsync(user, token, newPassword);
+                if(forgotPassword.Password != forgotPassword.ConfirmPassword)
+                {
+                    return Results.BadRequest("Passwords do not match.");
+                }
+
+                var token = await userManager.GeneratePasswordResetTokenAsync(user);
+                var result = await userManager.ResetPasswordAsync(user, token, forgotPassword.Password!);
 
                 if (result.Succeeded)
                 {
-                    await _emailSender.SendEmailAsync(forgotPassword.Email, user.UserName,
-                            $"Mật khẩu mới của bạn là: {newPassword}");
                     return Results.Ok("200|Password reset successfully");
                 }
 
@@ -132,34 +135,6 @@ namespace WED_BACKEND_ASP.Endpoints
             {
                 return Results.Problem("An error occurred while resetting the password.", statusCode: 500);
             }
-        }
-
-        private string GenerateSecurePassword()
-        {
-            const int length = 12;
-            const string upperCase = "ABCDEFGHJKLMNOPQRSTUVWXYZ";
-            const string lowerCase = "abcdefghijklmnopqrstuvwxyz";
-            const string digits = "0123456789";
-            const string specialChars = "!@#$%^&*?_-";
-            const string allChars = upperCase + lowerCase + digits + specialChars;
-
-            var random = new Random();
-            var password = new char[length];
-
-            // Ensure the password has at least one character from each category
-            password[0] = upperCase[random.Next(upperCase.Length)];
-            password[1] = lowerCase[random.Next(lowerCase.Length)];
-            password[2] = digits[random.Next(digits.Length)];
-            password[3] = specialChars[random.Next(specialChars.Length)];
-
-            // Fill the rest of the password with random characters from all categories
-            for (int i = 4; i < length; i++)
-            {
-                password[i] = allChars[random.Next(allChars.Length)];
-            }
-
-            // Shuffle the characters to ensure randomness
-            return new string(password.OrderBy(x => random.Next()).ToArray());
         }
 
         //change password
@@ -318,7 +293,7 @@ C****: Update User
         public async Task<IResult> VerifyOTP([FromBody] VerifyOTPRequest request, [FromServices] OTPService _otpService,
             [FromServices] UserManager<ApplicationUser> _userManager, [FromServices] IUser _user)
         {
-            var currentUser = await _userManager.FindByIdAsync(_user.Id);
+            var currentUser = await _userManager.Users.FirstOrDefaultAsync(u => u.Email == request.Email);
             if (currentUser == null)
             {
                 return Results.NotFound("khong tim thay nguoi dung.");
@@ -394,7 +369,6 @@ C****: Update User
                     Birthday = u.Birthday,
                     Address = u.Address,
                     Role = roles.FirstOrDefault(),
-
                 };
 
                 usersDtoList.Add(userDto);

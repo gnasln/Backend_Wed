@@ -5,6 +5,8 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>WED_BACKEND_ASP.NET_CORE</RootNamespace>
+	  <UserSecretsId>c3504999-4ef1-4c4d-88ee-e3ff537c1f72</UserSecretsId>
+	<PreserveCompilationContext>true</PreserveCompilationContext>
   </PropertyGroup>
 
 	<ItemGroup>
@@ -12,8 +14,7 @@
 		<PackageReference Include="FluentEmail.Razor" Version="3.0.2" />
 		<PackageReference Include="FluentEmail.Smtp" Version="3.0.2" />
 		<PackageReference Include="MySql.EntityFrameworkCore" Version="8.0.8" />
-		<PackageReference Include="Nethereum.Contracts" Version="4.26.0" />
-		<PackageReference Include="Nethereum.Web3" Version="4.26.0" />
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
 		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
 	</ItemGroup>
 

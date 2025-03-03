@@ -40,5 +40,20 @@ public class EmailSender : IEmailSender
             throw new Exception($"Failed to send email: {result.ErrorMessages.FirstOrDefault()}");
         }
     }
+    
+    public async Task SendEmailRegisterAsync(string email, string fullname, string userName, string password)
+    {
+        var result = await _fluentEmail
+            .To(email, fullname)
+            .Subject("Thông báo tài khoản")
+            .UsingTemplateFromFile($"{Directory.GetCurrentDirectory()}/Resources/Templates/Send_Password.cshtml",
+                new { Name = fullname, UserName = userName, Password = password })
+            .SendAsync();
+
+        if (!result.Successful)
+        {
+            throw new Exception($"Failed to send email: {result.ErrorMessages.FirstOrDefault()}");
+        }
+    }
 
 }

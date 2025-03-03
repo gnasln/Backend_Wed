@@ -6,9 +6,8 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.OpenApi.Models;
 using Serilog;
 using Serilog.Formatting.Json;
-using Newtonsoft.Json;
-using Microsoft.Extensions.DependencyInjection;
 using WED_BACKEND_ASP.NET_CORE.Infrastructure;
+using Newtonsoft.Json;
 
 // log
 var logger = Log.Logger = new LoggerConfiguration()
@@ -67,6 +66,9 @@ builder.Services.Configure<ForwardedHeadersOptions>(options =>
 {
     options.ForwardedHeaders = ForwardedHeaders.XForwardedFor | ForwardedHeaders.XForwardedProto;
 });
+builder.Services.AddFluentEmail(builder.Configuration);
+
+
 
 
 var app = builder.Build();
@@ -88,7 +90,6 @@ if (app.Environment.IsDevelopment() || app.Configuration["EnableDumpEnv"] == "1"
 
     await app.InitializeDatabaseAsync();
 }
-
 
 app.UseHealthChecks("/healthz");
 

@@ -1,4 +1,5 @@
-﻿using Wed.Infrastructure.Data;
+﻿using FluentEmail.Core;
+using Wed.Infrastructure.Data;
 using WED_BACKEND_ASP.Services;
 using Wed.Application.Common.Interfaces;
 using Microsoft.AspNetCore.Authorization;
@@ -24,9 +25,15 @@ public static class DependencyInjection
         services.AddControllers();
         services.AddMemoryCache(); // Thêm dòng này để sử dụng MemoryCache
         services.AddSingleton<OTPService>();
+        
+        // Register the BackgroundTaskQueue service
+        services.AddSingleton<IBackgroundTaskQueue, BackgroundTaskQueue>();
 
         //vo hieu hoa
         services.AddScoped<SignInManager<ApplicationUser>, CustomSignInManager>();
+        
+        //email
+        services.AddScoped<IEmailSender, EmailSender>();
 
         services.AddHealthChecks()
             .AddDbContextCheck<ApplicationDbContext>();
