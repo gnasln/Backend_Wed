@@ -20,7 +20,6 @@ namespace WED_BACKEND_ASP.NET_CORE.Endpoints
                 ;
 
             app.MapGroup(this)
-                .RequireAuthorization("admin")
                 .MapGet(GetAllFacility, "/get-all-facility")
                 ;
 
