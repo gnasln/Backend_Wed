@@ -529,6 +529,10 @@ public class AuthorizationController(
                 status = 404,
                 message = "not found user."
             });
+        
+        // Remove all existing roles
+        var currentRoles = await userManager.GetRolesAsync(user);
+        await userManager.RemoveFromRolesAsync(user, currentRoles);
 
         IdentityResult result;
         if (role == "FacilityOwner")
@@ -543,7 +547,7 @@ public class AuthorizationController(
         if (!result.Succeeded)
             return Results.BadRequest(new
             {
-                status = 404,
+                status = 500,
                 message = "Updated role unsuccessfully."
             });
 
