@@ -16,7 +16,7 @@ namespace WED_BACKEND_ASP.NET_CORE.Endpoints
             app.MapGroup(this)
                 .RequireAuthorization()
                 .MapPost(CreateFacility, "/create-facility")
-                
+                .MapGet(GetAllFacilityByOwner, "/get-all-facility-by-owner")
                 ;
 
             app.MapGroup(this)
@@ -48,6 +48,17 @@ namespace WED_BACKEND_ASP.NET_CORE.Endpoints
         public async Task<IResult> GetAllFacility([FromServices] ISender sender, int page, int pageSize, string? name)
         {
             var result = await sender.Send(new GetAllFacilityQuery(){ PageSize = pageSize, Page = page, Name = name });
+            return Results.Ok(new
+            {
+                status = result.Status,
+                message = result.Message,
+                data = result.Data
+            });
+        }
+        
+        public async Task<IResult> GetAllFacilityByOwner([FromServices] ISender sender, int page, int pageSize, string? name, [FromServices]IUser user)
+        {
+            var result = await sender.Send(new GetAllFacilityByOwnerQuery(){ PageSize = pageSize, Page = page, Name = name, OwnerId = user.Id });
             return Results.Ok(new
             {
                 status = result.Status,
