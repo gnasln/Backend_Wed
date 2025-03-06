@@ -12,8 +12,8 @@ public class ApplicationDbContext : IdentityDbContext<ApplicationUser>, IApplica
         : base(options) { }
 
     public DbSet<ApplicationUser> ApplicationUsers => Set<ApplicationUser>();
-    
-    
+    public DbSet<Facility> Facilities => Set<Facility>();
+
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         base.OnModelCreating(modelBuilder);
@@ -23,6 +23,19 @@ public class ApplicationDbContext : IdentityDbContext<ApplicationUser>, IApplica
             entity.HasIndex(e => e.Email).IsUnique();
             entity.HasIndex(e => e.UserName).IsUnique();
             entity.HasIndex(e => e.CellPhone).IsUnique();
+        });
+
+        modelBuilder.Entity<Facility>(entity =>
+        {
+            entity.Property(e => e.Name).IsRequired()
+                    .HasMaxLength(255);
+            entity.Property(e => e.Address).IsRequired()
+                    .HasMaxLength(500);
+            entity.Property(e => e.FacilityType).IsRequired()
+                    .HasMaxLength(50);
+            entity.Property(e => e.Status).IsRequired()
+                    .HasMaxLength(20);
+
         });
     }
 
