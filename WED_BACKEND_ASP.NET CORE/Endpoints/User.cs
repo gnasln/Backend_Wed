@@ -213,6 +213,7 @@ C****: Update User
                 if (!updateUser.FullName.IsNullOrEmpty()) currentUser.FullName = updateUser.FullName;
                 currentUser.Gender = updateUser.Gender;
                 if (!(updateUser.Birthday == null)) currentUser.Birthday = updateUser.Birthday;
+                if (!updateUser.Status.IsNullOrEmpty()) currentUser.Status = updateUser.Status;
 
                 var result = await _userManager.UpdateAsync(currentUser);
                 if (result.Succeeded)
