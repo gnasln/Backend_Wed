@@ -14,6 +14,7 @@ using Microsoft.IdentityModel.Tokens;
 using OpenIddict.Abstractions;
 using OpenIddict.Server.AspNetCore;
 using ServiceStack;
+using Wed.Domain.Constants;
 using Wed.Domain.Entities;
 using Wed.Infrastructure.Data;
 using static OpenIddict.Abstractions.OpenIddictConstants;
@@ -470,36 +471,6 @@ public class AuthorizationController(
                 message = "User has voted in an active vote, cannot disable account."
             });
 
-        //var listVote = await dbContext.UserVotes.Where(x => x.UserId == id).Select(x => x.VoteId).ToListAsync();
-        //if (!listVote.IsNullOrEmpty())
-        //{
-        //    return Results.BadRequest(new
-        //    {
-        //        status = 404,
-        //        message = "User has voted in an active vote, cannot disable account."
-        //    });
-        //}
-
-        //bool res = false;
-        //foreach (var item in listVote)
-        //{
-        //    var vote = await dbContext.Votes.FindAsync(item);
-        //    if (vote?.Status == "1")
-        //    {
-        //        res = true;
-        //        break;
-        //    }
-        //}
-
-        //if (res)
-        //{
-        //    return Results.BadRequest(new
-        //    {
-        //        status = 404,
-        //        message = "User has voted in an active vote, cannot disable account."
-        //    });
-        //}
-
         user.Status = "Disable";
         var result = await _userManager.UpdateAsync(user);
 
@@ -544,6 +515,42 @@ public class AuthorizationController(
         {
             status = result.Succeeded,
             message = "User account has been Active successfully."
+        });
+    }
+    
+    [Authorize(Policy = "admin")]
+    [HttpPost("~/admin/update-account/{id}")]
+    public async Task<IResult> UpdateAccount([FromRoute] string id, [FromServices] UserManager<ApplicationUser> userManager, string role)
+    {
+        var user = await _userManager.FindByIdAsync(id);
+        if (user == null)
+            return Results.NotFound(new
+            {
+                status = 404,
+                message = "not found user."
+            });
+
+        IdentityResult result;
+        if (role == "FacilityOwner")
+        {
+            result = await userManager.AddToRoleAsync(user, Roles.FacilityOwner);
+        }
+        else
+        {
+            result = await userManager.AddToRoleAsync(user, Roles.User);
+        }
+
+        if (!result.Succeeded)
+            return Results.BadRequest(new
+            {
+                status = 404,
+                message = "Updated role unsuccessfully."
+            });
+
+        return Results.Ok(new
+        {
+            status = result.Succeeded,
+            message = "User role has been changed successfully."
         });
     }
 

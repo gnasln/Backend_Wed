@@ -78,6 +78,7 @@ namespace Wed.Infrastructure.Data
             // Default roles
             var administratorRole = new IdentityRole(Roles.Administrator);
             var user = new IdentityRole(Roles.User);
+            var facilityOwner = new IdentityRole(Roles.FacilityOwner);
 
             if (_roleManager.Roles.All(r => r.Name != administratorRole.Name))
             {
@@ -86,6 +87,10 @@ namespace Wed.Infrastructure.Data
             if (_roleManager.Roles.All(r => r.Name != user.Name))
             {
                 await _roleManager.CreateAsync(user);
+            }
+            if (_roleManager.Roles.All(r => r.Name != Roles.FacilityOwner))
+            {
+                await _roleManager.CreateAsync(facilityOwner);
             }
 
             // Default users
