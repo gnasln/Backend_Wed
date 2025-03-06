@@ -24,7 +24,7 @@ namespace WED_BACKEND_ASP.Endpoints
                 .MapPost(SendOTP, "/send-otp")
                 .MapPost(VerifyOTP, "/verify-otp")
                 ;
-
+           
 
             app.MapGroup(this)
                 .RequireAuthorization()

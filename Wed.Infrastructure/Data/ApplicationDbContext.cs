@@ -33,8 +33,8 @@ public class ApplicationDbContext : IdentityDbContext<ApplicationUser>, IApplica
                     .HasMaxLength(500);
             entity.Property(e => e.FacilityType).IsRequired()
                     .HasMaxLength(50);
-            entity.Property(e => e.Status).IsRequired()
-                    .HasMaxLength(20);
+            entity.Property(e => e.Status).IsRequired();
+                    
 
         });
     }
