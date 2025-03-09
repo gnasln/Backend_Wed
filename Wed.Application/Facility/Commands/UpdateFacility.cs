@@ -61,6 +61,7 @@ namespace Wed.Application.Facility.Commands
             if (request.Image != null) entity.Image = request.Image;
             entity.UpdatedAt = DateTime.Now;
 
+            _context.Facilities.Update(entity);
             await _context.SaveChangesAsync(cancellationToken);
 
             return new ResultCustom<FacilityResponse>

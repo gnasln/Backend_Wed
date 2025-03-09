@@ -54,6 +54,12 @@ public static class DependencyInjection
                 policy.AuthenticationSchemes = [OpenIddictValidationAspNetCoreDefaults.AuthenticationScheme];
                 policy.RequireAuthenticatedUser();
                 policy.RequireRole("Administrator");
+            })
+            .AddPolicy("owner", policy =>
+            {
+                policy.AuthenticationSchemes = [OpenIddictValidationAspNetCoreDefaults.AuthenticationScheme];
+                policy.RequireAuthenticatedUser();
+                policy.RequireRole("FacilityOwner");
             });
 
         return services;

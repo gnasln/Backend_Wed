@@ -13,6 +13,7 @@ public class ApplicationDbContext : IdentityDbContext<ApplicationUser>, IApplica
 
     public DbSet<ApplicationUser> ApplicationUsers => Set<ApplicationUser>();
     public DbSet<Facility> Facilities => Set<Facility>();
+    public DbSet<Event> Events => Set<Event>();
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -36,6 +37,16 @@ public class ApplicationDbContext : IdentityDbContext<ApplicationUser>, IApplica
             entity.Property(e => e.Status).IsRequired();
                     
 
+        });
+        
+        modelBuilder.Entity<Event>(entity =>
+        {
+            entity.Property(e => e.Name).IsRequired()
+                    .HasMaxLength(255);
+            entity.Property(e => e.Description).IsRequired()
+                    .HasMaxLength(500);
+            entity.Property(e => e.EventType).IsRequired()
+                    .HasMaxLength(50);
         });
     }
 

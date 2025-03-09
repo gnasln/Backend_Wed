@@ -8,5 +8,6 @@ namespace Wed.Application.Common.Interfaces
         Task<int> SaveChangesAsync(CancellationToken cancellationToken);
         DbSet<Domain.Entities.Facility> Facilities { get;}
         DbSet<ApplicationUser> ApplicationUsers { get;}
+        DbSet<Domain.Entities.Event> Events { get;}
     }
 }
