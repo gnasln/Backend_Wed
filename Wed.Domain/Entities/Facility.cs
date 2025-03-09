@@ -15,6 +15,7 @@ namespace Wed.Domain.Entities
         public required string OwnerId { get; set; }
         public ApplicationUser ApplicationUser { get; set; }
         public string FacilityType { get; set; } = string.Empty;
+        public string Image { get; set; }
         public required StatusFacility Status { get; set; }
         public DateTime CreatedAt { get; set; } = DateTime.Now;
         public DateTime UpdatedAt { get; set; }

@@ -15,6 +15,7 @@ namespace Wed.Application.Facility.Commands
         public string? Description { get; set; } = string.Empty;
         public string? OwnerId { get; set; }
         public string? FacilityType { get; set; } = string.Empty;
+        public string? Image { get; set; } = string.Empty;
         public StatusFacility Status { get; set; }
 
         public class Mapping : Profile

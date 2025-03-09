@@ -8,6 +8,7 @@
         public string Description { get; set; } = string.Empty;
         public required string OwnerId { get; set; }
         public string FacilityType { get; set; } = string.Empty;
+        public string Image { get; set; } = string.Empty;
         public required string Status { get; set; } = "Available";
         public DateTime CreatedAt { get; set; } = DateTime.Now;
         public DateTime UpdatedAt { get; set; }
