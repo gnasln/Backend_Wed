@@ -16,11 +16,10 @@ public class Event : EndpointGroupBase
             .MapPost(CreateEvent, "/create-event")
             .MapPut(UpdateEvent, "/update-event")
             .MapDelete(DeleteEvent, "/delete-event/{id}")
-            .MapGet(GetAllEventByOwner, "/get-event-by-id")
+            .MapGet(GetAllEventByOwner, "/get-event-by-owner")
             ;
 
         app.MapGroup(this)
-            .RequireAuthorization()
             .MapGet(GetAllEvent, "/get-all-event")
             .MapGet(GetEventById, "/get-event-by-id/{id}")
             ;
